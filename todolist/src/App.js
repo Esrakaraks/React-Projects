@@ -10,9 +10,9 @@ const tasks=["kitap oku",
 class App extends Component{
 
   addTasks(val){
-    console.log("fşeğrfp");
+    
     console.log(tasks);
-    tasks.push(val); //value değeri gelmiyor ??
+    tasks.push(val); 
     console.log(tasks);
 
   }
