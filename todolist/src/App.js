@@ -3,21 +3,29 @@ import {TodoList} from './todoList';
 import {TodoForm} from './todoForm';
 import {Header} from './inc/header';
 import {Footer} from './inc/footer';
-
+const tasks=["kitap oku",
+              "kod yaz "];
 
 
 class App extends Component{
+
+  addTasks(val){
+    console.log("fşeğrfp");
+    console.log(tasks);
+    tasks.push(val); //value değeri gelmiyor ??
+    console.log(tasks);
+
+  }
+
   render(){
-    const tasks=["yapılacak işler",
-                "kitap oku",
-                "React öğren",
-                "film izle"];
+
+ 
     return(
 
       <div className="container">
         <Header/>
        -
-        <TodoForm/>
+        <TodoForm addTasks={this.addTasks} />
         <TodoList mytasks={tasks}/>
         <Footer/>
       </div>
