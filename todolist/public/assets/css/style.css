@@ -1,13 +1,46 @@
-.list-group-item{
+.list{
 
 	margin-top:15px;
 }
 .add-todo{
 	width: 300px;
      height: 200px;
-     background: #EEE8AA;
+     background:#A52A2A;
 }
-.btn{
-	margin-top: 30px ;
-	margin-left: 100px;
+#button:hover {
+  background-color: #f44336;
+  color: white;
 }
+#button{
+	background-color: white; 
+	color: black; 
+	
+	margin-left:105px;
+    font-size: 15px;
+    border-radius: 50%
+}
+
+#btn{
+	background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    margin-left: 100px;
+    margin-top:30px;
+    font-size: 20px;
+}
+#checkbox{
+	margin-left:170px;
+	border-radius: 50%;
+    background: white;
+	width: 25px;
+    height:25px;
+   
+ 
+}
+
+#btn:hover {background-color: #e7e7e7;}
+}
+
+
+
+

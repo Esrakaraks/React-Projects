@@ -3,19 +3,25 @@ import {TodoList} from './todoList';
 import {TodoForm} from './todoForm';
 import {Header} from './inc/header';
 import {Footer} from './inc/footer';
-const tasks=["kitap oku",
-              "kod yaz "];
+
 
 
 class App extends Component{
+  constructor(){
+      super();
+      this.state=  {tasks : [
+                          "read a book",
+                          "write code",
+                          ""
+      ]};
+      this.addTasks=this.addTasks.bind(this);
+ }
 
   addTasks(val){
-    
-    console.log(tasks);
-    tasks.push(val); 
-    console.log(tasks);
-
-  }
+    let updateList =this.state.tasks;
+    updateList.push(val);
+    this.setState({tasks:  updateList});
+   }
 
   render(){
 
@@ -25,8 +31,8 @@ class App extends Component{
       <div className="container">
         <Header/>
        -
-        <TodoForm addTasks={this.addTasks} />
-        <TodoList mytasks={tasks}/>
+        <TodoForm catchTasks={this.addTasks} />
+        <TodoList mytasks={this.state.tasks}/>
         <Footer/>
       </div>
       )
