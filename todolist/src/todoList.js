@@ -3,17 +3,16 @@ const id=document.getElementById('listid');
 export class TodoList extends React.Component{
 	constructor(){
 		super();
-		this.deleteTasks=this.deleteTasks.bind(this);
-		this.doneTasks=this.doneTasks.bind(this);
+		
 	}
 
-	doneTasks(){
+	doneTasks = (e)=>{
 		console.log("task okey");
 
 	}
 
 
-    deleteTasks(id){
+    deleteTasks=(e) => {
 		console.log("delete");
 
 	}
@@ -21,11 +20,12 @@ export class TodoList extends React.Component{
     render(){
 		const items_left=0;
 		const items=this.props.mytasks.map((elem,i)=>{
+			let task_id="task_id"+i;
 		return(
 		<ul>
-			<li className="list">
+			<li className="list"id="task_id" className="elem.status">
 				<span className="id" id="listİd">{i+1}.</span>
-				<span className="title">{elem}</span>
+				<span className="title">{elem.text}</span>
 			    <span className="delete"></span>
 				<button type="button" onClick={this.deleteTasks} id ="button">Delete</button> 
 				<input type="checkbox" onClick={this.doneTasks} id="checkbox"/>

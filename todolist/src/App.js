@@ -9,20 +9,27 @@ import {Footer} from './inc/footer';
 class App extends Component{
   constructor(){
       super();
-      this.state=  {tasks : [
-                          "read a book",
-                          "write code",
-                          ""
-      ]};
+      this.state=  {tasks : [{text:"read a book",status:"passive"},
+                              {text:"write code",status:"passive"}
+                      
+                   ]};
       this.addTasks=this.addTasks.bind(this);
  }
 
   addTasks(val){
     let updateList =this.state.tasks;
-    updateList.push(val);
+    updateList.push({text:val,status:"passive"});
     this.setState({tasks:  updateList});
    }
 
+   doneTasks(task_id){
+
+   }
+
+  deleteTasks(task_id){
+
+
+    }
   render(){
 
  
