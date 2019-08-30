@@ -7,24 +7,26 @@ export class TodoList extends React.Component{
 	}
 
 	doneTasks = (e)=>{
-		console.log("task okey");
+		this.props.doneTasks(e.target.parentNode.id); //parent-child communication
+		
 
 	}
 
 
     deleteTasks=(e) => {
-		console.log("delete");
+		this.props.doneTasks(e.target.parentNode.id);  //parent-child communication
+
 
 	}
 
     render(){
 		const items_left=0;
 		const items=this.props.mytasks.map((elem,i)=>{
-			let task_id="task_id"+i;
+			let task_id='task_'+i;
 		return(
 		<ul>
-			<li className="list"id="task_id" className="elem.status">
-				<span className="id" id="listİd">{i+1}.</span>
+			<li className="list" id="task_id" className="elem.status">
+				<span className="id">{i+1}.</span>
 				<span className="title">{elem.text}</span>
 			    <span className="delete"></span>
 				<button type="button" onClick={this.deleteTasks} id ="button">Delete</button> 

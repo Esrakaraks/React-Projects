@@ -14,19 +14,28 @@ class App extends Component{
                       
                    ]};
       this.addTasks=this.addTasks.bind(this);
+      this.doneTasks=this.doneTasks.bind(this);
+      this.deleteTasks=this.deleteTasks.bind(this);
  }
 
   addTasks(val){
     let updateList =this.state.tasks;
     updateList.push({text:val,status:"passive"});
-    this.setState({tasks:  updateList});
+    this.setState({tasks:  updateList}); //state   update
    }
 
    doneTasks(task_id){
-
+      task_id=task_id.replace('task_',' ');
+      let updateList=this.state.tasks;
+      updateList[task_id].status='active';
+      this.setState({tasks:updateList}); //state update
    }
 
   deleteTasks(task_id){
+    task_id=task_id.replace('task_',' ');
+      let updateList=this.state.tasks;
+      updateList.splice(task_id,1);
+       this.setState({tasks:updateList});
 
 
     }
@@ -39,7 +48,9 @@ class App extends Component{
         <Header/>
        -
         <TodoForm catchTasks={this.addTasks} />
-        <TodoList mytasks={this.state.tasks}/>
+        <TodoList mytasks={this.state.tasks}   //props
+                     doneTasks={this.doneTasks}  //props
+                    deleteTasks={this.deleteTasks}/> //props
         <Footer/>
       </div>
       )
