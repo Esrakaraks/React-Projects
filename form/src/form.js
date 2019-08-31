@@ -17,9 +17,7 @@ import React from 'react';
  	change=(e)=>{
  		this.setState({
       [e.target.name]: e.target.value
- 		
-
-    });
+ 	});
  		
 
  	}
@@ -51,7 +49,7 @@ import React from 'react';
 
    					<div className="form-group">
     					<label htmlFor="lastname">LastName:</label>
-    					<input type="text" className="form-control" name="lastname"  value ={this.state.lastname} onChange={this.change} placeholder="Enter Lastname"/>
+    					<input type="text" className="form-control" name="lastname"  value={this.state.lastname} onChange={this.change} placeholder="Enter Lastname"/>
    					</div>  
 
   					<div className="form-group">
