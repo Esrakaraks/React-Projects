@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import {Header}  from './inc/header';
 import {Form} from './form';
+import {Footer} from './inc/footer';
+
 
 
 class App extends  Component {
@@ -9,6 +11,8 @@ class App extends  Component {
    			 <div className="container">
    			 	<Header/>
     			<Form/>
+    			<Footer/>
+
 
 
 
