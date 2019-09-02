@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Layout,Header,Drawer,Navigation,Content} from 'react-mdl';
 
 export  class Headerr extends React.Component{
@@ -11,7 +11,7 @@ export  class Headerr extends React.Component{
     			<Layout>
       			  <Header title="Title" scroll>
 	            		<Navigation>
-			                <a href="#">Link</a>
+			                <a href="/">Link</a>
 			                <a href="#">Link</a>
 			                <a href="#">Link</a>
 			                <a href="#">Link</a>
