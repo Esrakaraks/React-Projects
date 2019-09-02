@@ -1,4 +1,4 @@
-import React  from 'react';
+import React, {Component} from 'react';
 
 export  class LandingPage extends React.Component{
 
