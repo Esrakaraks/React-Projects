@@ -1,11 +1,12 @@
 import React,{Component} from 'react';
+import './app.css';
 import {Headerr}  from './inc/header';
 import {About} from './components/aboutme';
 import {Contact} from './components/contact';
 import {LandingPage} from './components/landingpage';
 import {Resume} from './components/resume';
 import {Projects} from './components/projects';
- import './app.css';
+
 
 
 class App extends  Component {
@@ -13,6 +14,7 @@ class App extends  Component {
      return (
          <div className="container">
             <Headerr/>
+            <LandingPage/> 
           
          </div>
      );

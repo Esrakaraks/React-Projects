@@ -10,9 +10,9 @@ export  class Headerr extends React.Component{
 
 			<div className="demo-big-content">
     			<Layout>
-      			  <Header className="header-color" title="Title" scroll>
-	            		<Navigation>
-			                <Link to="/about">About Me</Link>
+      			  <Header className="header-color" title="</>Essraarakas" scroll>
+					<Navigation>
+	            			<Link to="/about">About Me</Link>
 			                <Link to="/contact">Contact</Link>
 			                <Link to="/projects">Projects</Link>
 			                <Link to="/resume">Resume</Link>
