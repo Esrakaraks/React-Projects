@@ -7,12 +7,11 @@ export  class LandingPage extends React.Component{
 		return(
 			<div className="content-class">
 				<div className="landingpage-class">
-					<h1>FULL STACK WEB DEVELOPER</h1>
-
-
+					<h3 className="h3-class">FULL STACK WEB DEVELOPER</h3>
 				</div>
-    			
-    		</div>
+				<p> HTML | CSS | jAVASCRİPT | NODEJS |REACTJS </p> 
+				
+			</div>
 
 		);
 	}
