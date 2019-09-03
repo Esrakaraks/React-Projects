@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React  from 'react';
 import { Layout,Header,Drawer,Navigation,Content} from 'react-mdl';
-import Main from '../components/main';
+import Router from '../components/router';
 import {Link} from 'react-router-dom';
 export  class Headerr extends React.Component{
 
@@ -10,7 +10,7 @@ export  class Headerr extends React.Component{
 
 			<div className="demo-big-content">
     			<Layout>
-      			  <Header title="Title" scroll>
+      			  <Header className="header-color" title="Title" scroll>
 	            		<Navigation>
 			                <Link to="/about">About Me</Link>
 			                <Link to="/contact">Contact</Link>
@@ -28,7 +28,7 @@ export  class Headerr extends React.Component{
         			</Drawer>
         			<Content>
             			<div className="page-content" />
-            			<Main/>
+            			<Router/>
         			</Content>
     			</Layout>
 			</div>

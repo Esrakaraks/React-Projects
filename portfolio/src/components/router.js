@@ -8,7 +8,7 @@ import {About} from  './aboutme';
 
 
 
-const Main= () => (
+const Router= () => (
 	<Switch>
 		<Route exact path ='/' component ={LandingPage}/>
 		<Route path ='/about' component ={About}/>
@@ -18,4 +18,4 @@ const Main= () => (
 	</Switch>
 )
 
-export default Main;
+export default Router;

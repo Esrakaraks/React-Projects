@@ -5,22 +5,16 @@ import {Contact} from './components/contact';
 import {LandingPage} from './components/landingpage';
 import {Resume} from './components/resume';
 import {Projects} from './components/projects';
-
-
+ import './app.css';
 
 
 class App extends  Component {
   render(){
      return (
          <div className="container">
-          <Headerr/>
+            <Headerr/>
           
-        
-
-
-
-
-        </div>
+         </div>
      );
   }
 }
