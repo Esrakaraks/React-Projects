@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 body{
     background: #C33764;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
@@ -14,7 +15,24 @@ body{
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
+
+.demo-grid-1{
+	text-align: center;
+	justify-content: center;
+	background-color: white;
+	width: 80%;
+	height: 600px;
+	margin-top:50px;
+	border: 2px solid pink;
+}
+
 .Projects-gird{
 	display: flex;
 }
-
+.img-class{
+	width: 150px;
+}
+.p-class{
+	padding-top: 50px;
+	font-family: 'Lobster', cursive;
+}
