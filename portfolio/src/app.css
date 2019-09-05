@@ -14,8 +14,7 @@ body{
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
-
-.h3-class{
-	padding-left:300px;
-	padding-top: 150px;
+.Projects-gird{
+	display: flex;
 }
+
