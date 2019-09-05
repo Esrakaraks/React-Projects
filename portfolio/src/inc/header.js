@@ -10,22 +10,17 @@ export  class Headerr extends React.Component{
 
 			<div className="demo-big-content">
     			<Layout>
-      			  <Header className="header-color" title="</>Essraarakas" scroll>
+      			  <Header className="header-color" title="</>EssraKarakas" scroll>
 					<Navigation>
+							<Link to="/resume">Resume</Link>
 	            			<Link to="/about">About Me</Link>
+	            			<Link to="/projects">Projects</Link>
 			                <Link to="/contact">Contact</Link>
-			                <Link to="/projects">Projects</Link>
-			                <Link to="/resume">Resume</Link>
+			                
+			                
 	            		</Navigation>
         			</Header>
-        			<Drawer title="Title">
-            			<Navigation>
-			                <a href="/">Link</a>
-			                <a href="/">Link</a>
-			                <a href="/">Link</a>
-			                <a href="/">Link</a>
-           			 	</Navigation>
-        			</Drawer>
+        			
         			<Content>
             			<div className="page-content" />
             			<Router/>

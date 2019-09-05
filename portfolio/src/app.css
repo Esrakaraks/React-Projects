@@ -36,3 +36,12 @@ body{
 	padding-top: 50px;
 	font-family: 'Lobster', cursive;
 }
+.hr-first{
+	 border-top: 1px dotted   black;
+}
+
+.second-class{
+	background-color:#D3D3D3;
+	height: 800px;
+
+}
