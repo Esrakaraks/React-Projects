@@ -13,9 +13,7 @@ export class TodoForm extends React.Component{
 		console.log(val);
 		input.value='';
 		this.props.catchTasks(val); //parent-child communication
-       
-
-	}
+     }
 
 	render(){
 		
