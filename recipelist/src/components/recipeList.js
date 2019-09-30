@@ -1,12 +1,13 @@
 import React from 'react';
 
-export class recipeList extends React.Component{
+export class RecipeList extends React.Component{
 	render(){
 			return(
-
 				<div class="container">
-					hello
-				)
+					<p>hello</p>
+
+				</div>
+			);
 
 	}
 

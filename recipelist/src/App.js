@@ -1,13 +1,18 @@
-import React from 'react';
+import React,{Component} from 'react';
+import {RecipeList} from './components/recipeList';
 
 
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+class App extends  Component {
+  render(){
+     return (
+         <div className="container">
+            <RecipeList/>
+            
+          
+         </div>
+     );
+  }
 }
 
 export default App;
