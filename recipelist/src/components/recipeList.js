@@ -5,21 +5,24 @@ export class RecipeList extends React.Component{
 			return(
 				<div class="container">
 					<h2 class ="h2-title">SEARCH FOR RECİPE WİTH FOOD2FORK</h2>
-					<Textfield
-					    onChange={() => {}}
-					    label="Text lines..."
-					    rows={3}
-					    style={{width: '200px'}}
-					/>
+					<p class="type"> type Recipes separated by comma</p>
+					<div class = "textfield-search">
+					       <Textfield
+							    onChange={() => {}}
+							    label="Text lines..."
+							    rows={3}
+							    style={{width: '55rem'}}
+							    
+							/>
+						<Textfield
+						    onChange={() => {}}
+						    label="Expandable Input"
+						    expandable
+						    expandableIcon="search"
+						    style={{color: 'red'}}
+						/>
 
-					{/* Expandable Textfield */}
-					<Textfield
-					    onChange={() => {}}
-					    label="Expandable Input"
-					    expandable
-					    expandableIcon="search"
-					/>
-
+					</div>
 				</div>
 			);
 
