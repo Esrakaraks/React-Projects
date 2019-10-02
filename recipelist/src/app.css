@@ -12,9 +12,20 @@
 }
 .field{
 	width: '205rem';
+	
 
+}
+.textfield-search{
+	margin-left:100px;
 }
 .recipe-list{
 	font-family: 'Dancing Script', cursive;
 	margin-left:170px;
+}
+.grid-style{
+	padding-top: 25px;
+}
+.demo-grid-1{
+	border-radius:5px;
+
 }
