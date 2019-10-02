@@ -1,3 +1,6 @@
-.container{
-	color:pink ;
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+.h2-title{
+	font-family: 'Dancing Script', cursive;
+	color:red ;
 }
