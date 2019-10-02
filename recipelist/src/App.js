@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import {RecipeList} from './components/recipeList';
+import './app.css';
 
 
 
