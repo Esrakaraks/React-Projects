@@ -3,8 +3,7 @@
 .h2-title{
 	font-family: 'Dancing Script', cursive;
 	color:red ;
-	margin-top :70px;
-	margin-left:170px;
+    margin-left:170px;
 }
 .type{
 	font-family: 'Dancing Script', cursive;
@@ -14,4 +13,8 @@
 .field{
 	width: '205rem';
 
+}
+.recipe-list{
+	font-family: 'Dancing Script', cursive;
+	margin-left:170px;
 }
