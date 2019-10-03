@@ -36,6 +36,17 @@ export class RecipeList extends React.Component{
 					        <Button colored>View Updates</Button>
 					    </CardActions>
 					</Card>
+
+					<Card className ="card-class-1">
+					    <CardTitle className="card-class-2" >Update</CardTitle>
+					    <CardText>
+					        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					        Aenan convallis.
+					    </CardText>
+					    <CardActions border>
+					        <Button colored>View Updates</Button>
+					    </CardActions>
+					</Card>
 				</div>
 			</div>
 			);
