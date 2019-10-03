@@ -26,8 +26,8 @@ export class RecipeList extends React.Component{
 					<h2 class="recipe-list"> RECİPE LIST</h2>
 
 				<div className="card-style" >
-					<Card className ="card-class-1">
-					    <CardTitle className="card-class-2" >Update</CardTitle>
+					<Card shadow={0} style={{width: '120px;' ,margin: '40px'}}>
+					    <CardTitle 	expand style={{color: '#fff',height: '220px' ,background:'url(https://tr.reactjs.org/logo-og.png) center / cover'}}>Update</CardTitle>
 					    <CardText>
 					        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					        Aenan convallis.
@@ -36,9 +36,9 @@ export class RecipeList extends React.Component{
 					        <Button colored>View Updates</Button>
 					    </CardActions>
 					</Card>
-
-					<Card className ="card-class-1">
-					    <CardTitle className="card-class-2" >Update</CardTitle>
+					{  }
+					<Card shadow={0} style={{width: '120px;',margin:'40px'}}>
+					    <CardTitle 	expand style={{color: '#fff',height: '220px' ,background:'url(https://tr.reactjs.org/logo-og.png) center / cover'}}>Update</CardTitle>
 					    <CardText>
 					        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					        Aenan convallis.
