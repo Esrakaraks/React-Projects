@@ -1,5 +1,5 @@
 import React from 'react';
-import {Textfield , Grid ,Cell} from 'react-mdl';
+import {Textfield , Card ,CardTitle,CardText,CardActions ,Button} from 'react-mdl';
 export class RecipeList extends React.Component{
 	render(){
 			return(
@@ -19,19 +19,23 @@ export class RecipeList extends React.Component{
 						    label="Expandable Input"
 						    expandable
 						    expandableIcon="search"
-						    style={{color: 'red'}}
+						    style={{color: 'rowsed'}}
 						/>
 
 					</div>
 					<h2 class="recipe-list"> RECİPE LIST</h2>
 
-				<div className="grid-style" >
-					<Grid className="demo-grid-1">
-				        <Cell col={4}><img src ="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/></Cell>
-				        <Cell col={4}>4</Cell>
-				        <Cell col={4}>4</Cell>
-				    </Grid>
-				   
+				<div className="card-style" >
+					<Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+					    <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+					    <CardText>
+					        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					        Aenan convallis.
+					    </CardText>
+					    <CardActions border>
+					        <Button colored>View Updates</Button>
+					    </CardActions>
+					</Card>
 				</div>
 			</div>
 			);
