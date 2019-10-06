@@ -25,10 +25,10 @@ export class RecipeList extends React.Component{
 					</div>
 					<h2 class="recipe-list"> RECİPE LIST</h2>
 
-				<div className="card-style" >
-					<Card shadow={0} style={{width: '50px;',margin :'50px',float:'left'}}>
-					    <CardTitle 	expand style={{color: '#fff',height: '220px' ,background: 'url(https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)'}}>Update</CardTitle>
-					    <CardText style={{color: '#fff',height: '50px'}}>
+				<div className="card-style" style={{padding:'60px'}}>
+					<Card shadow={0} style={{width: '280px',height:'350px',margin :'50px',float:'left'}}>
+					    <CardTitle 	expand style={{color: '#fff',height: '150px' ,background: 'url(https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)'}}>Update</CardTitle>
+					    <CardText style={{color: '#fff',height: '30px'}}>
 					        
 					    </CardText>
 					    <CardActions border>
@@ -36,9 +36,9 @@ export class RecipeList extends React.Component{
 					    </CardActions>
 					</Card>
 
-					<Card shadow={0} style={{width: '50px;',margin :'50px'}}>
-					    <CardTitle 	expand style={{color: '#fff',height: '220px' ,background: 'url(https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)'}}>Update</CardTitle>
-					    <CardText style={{color: '#fff',height: '50px'}}>
+					<Card shadow={0}  style={{width: '280px',height:'350px',margin :'50px',float:'left'}}>
+					    <CardTitle 	expand style={{color: '#fff',height: '150px' ,background: 'url(https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)'}}>Update</CardTitle>
+					    <CardText style={{color: '#fff',height: '30px'}}>
 					        
 					    </CardText>
 					    <CardActions border>
