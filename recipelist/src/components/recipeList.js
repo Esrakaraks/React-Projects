@@ -26,22 +26,20 @@ export class RecipeList extends React.Component{
 					<h2 class="recipe-list"> RECİPE LIST</h2>
 
 				<div className="card-style" >
-					<Card shadow={0} style={{width: '120px;',margin :'40px',float:'left'}}>
+					<Card shadow={0} style={{width: '50px;',margin :'50px',float:'left'}}>
 					    <CardTitle 	expand style={{color: '#fff',height: '220px' ,background: 'url(https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)'}}>Update</CardTitle>
-					    <CardText>
-					        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					        Aenan convallis.
+					    <CardText style={{color: '#fff',height: '50px'}}>
+					        
 					    </CardText>
 					    <CardActions border>
 					        <Button colored>View Updates</Button>
 					    </CardActions>
 					</Card>
 
-					<Card shadow={0} style={{width: '120px;',margin :'40px'}}>
+					<Card shadow={0} style={{width: '50px;',margin :'50px'}}>
 					    <CardTitle 	expand style={{color: '#fff',height: '220px' ,background: 'url(https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)'}}>Update</CardTitle>
-					    <CardText>
-					        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					        Aenan convallis.
+					    <CardText style={{color: '#fff',height: '50px'}}>
+					        
 					    </CardText>
 					    <CardActions border>
 					        <Button colored>View Updates</Button>
