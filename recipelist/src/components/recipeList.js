@@ -45,6 +45,17 @@ export class RecipeList extends React.Component{
 					        <Button colored>View Updates</Button>
 					    </CardActions>
 					</Card>
+
+
+					<Card shadow={0}  style={{width: '280px',height:'350px',margin :'50px',float:'left'}}>
+					    <CardTitle 	expand style={{color: '#fff',height: '150px' ,background: 'url(https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)'}}>Update</CardTitle>
+					    <CardText style={{color: '#fff',height: '30px'}}>
+					        
+					    </CardText>
+					    <CardActions border>
+					        <Button colored>View Updates</Button>
+					    </CardActions>
+					</Card>
 				</div>
 			</div>
 			);
