@@ -25,7 +25,7 @@ export class RecipeList extends React.Component{
 					</div>
 					<h2 class="recipe-list"> RECİPE LIST</h2>
 
-				<div className="card-style" style={{padding:'60px'}}>
+				<div className="card-style" style={{padding:'30px'}}>
 					<Card shadow={0} style={{width: '280px',height:'350px',margin :'50px',float:'left'}}>
 					    <CardTitle 	expand style={{color: '#fff',height: '150px' ,background: 'url(https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)'}}>Update</CardTitle>
 					    <CardText style={{color: '#fff',height: '30px'}}>
@@ -37,7 +37,7 @@ export class RecipeList extends React.Component{
 					</Card>
 
 					<Card shadow={0}  style={{width: '280px',height:'350px',margin :'50px',float:'left'}}>
-					    <CardTitle 	expand style={{color: '#fff',height: '150px' ,background: 'url(https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)'}}>Update</CardTitle>
+					    <CardTitle 	expand style={{color: '#fff',height: '150px' ,background: 'url(https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)'}}>Update</CardTitle>
 					    <CardText style={{color: '#fff',height: '30px'}}>
 					        
 					    </CardText>
